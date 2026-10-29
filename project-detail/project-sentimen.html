@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Analisis Sentimen Timnas — Sandri.</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="../assets/css/project-detail.css">
+  <link rel="stylesheet" href="../assets/css/project-detail-premium.css">
+</head>
+
+<body class="detail-page">
+
+<div class="grain"></div>
+
+<main class="detail-container">
+
+  <!-- PROJECT HEADER -->
+  <header class="detail-header">
+    <a href="../index.html" class="back-link">
+      <span>←</span> Kembali ke Beranda
+    </a>
+
+    <div class="detail-heading">
+      <div class="detail-title">
+        <h1>Analisis Sentimen</h1>
+
+        <p>
+          Analisis sentimen masyarakat terhadap Timnas Indonesia
+          menggunakan data dari media sosial.
+        </p>
+
+        <div class="chip-row">
+          <span class="chip">Python</span>
+          <span class="chip">Flask</span>
+          <span class="chip">NLP</span>
+        </div>
+      </div>
+
+      <div class="project-info">
+        <div class="info-item">
+          <span>Tahun</span>
+          <strong>2026</strong>
+        </div>
+
+        <div class="info-item">
+          <span>Kategori</span>
+          <strong>Machine Learning</strong>
+        </div>
+
+        <div class="info-item">
+          <span>Tipe</span>
+          <strong>Web App</strong>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- PROJECT IMAGE GALLERY -->
+<section class="project-gallery" aria-label="Preview proyek">
+
+  <div class="preview-main">
+    <img
+      id="mainPreview"
+      src="../assets/images/sentimen-dashboard.png"
+      alt="Dashboard analisis sentimen Timnas Indonesia"
+    >
+  </div>
+
+  <div class="preview-navigation">
+
+    <button
+      class="preview-arrow"
+      id="prevPreview"
+      aria-label="Gambar sebelumnya"
+      type="button"
+    >
+      ←
+    </button>
+
+    <div class="preview-thumbnails">
+
+      <button
+        class="preview-thumb active"
+        data-image="../assets/images/sentimen-dashboard.png"
+        aria-label="Preview dashboard"
+        type="button"
+      >
+        <img
+          src="../assets/images/sentimen-dashboard.png"
+          alt="Dashboard analisis sentimen"
+        >
+      </button>
+
+      <button
+        class="preview-thumb"
+        data-image="../assets/images/sentimen-analisis.png"
+        aria-label="Preview analisis"
+        type="button"
+      >
+        <img
+          src="../assets/images/sentimen-analisis.png"
+          alt="Analisis sentimen"
+        >
+      </button>
+
+      <button
+        class="preview-thumb"
+        data-image="../assets/images/sentimen-evaluasi.png"
+        aria-label="Preview visualisasi"
+        type="button"
+      >
+        <img
+          src="../assets/images/sentimen-evaluasi.png"
+          alt="Visualisasi data"
+        >
+      </button>
+
+      <button
+        class="preview-thumb"
+        data-image="../assets/images/sentimen-prediksi.png"
+        aria-label="Preview prediksi"
+        type="button"
+      >
+        <img
+          src="../assets/images/sentimen-prediksi.png"
+          alt="Prediksi sentimen"
+        >
+      </button>
+
+    </div>
+
+    <button
+      class="preview-arrow"
+      id="nextPreview"
+      aria-label="Gambar berikutnya"
+      type="button"
+    >
+      →
+    </button>
+
+  </div>
+
+</section>
+
+  <!-- PROJECT INFORMATION -->
+  <section class="project-overview">
+
+    <div class="overview-content">
+      <h2>Tentang Proyek</h2>
+
+      <p>
+        Proyek ini bertujuan untuk menganalisis sentimen masyarakat
+        terhadap Timnas Indonesia berdasarkan data tweet. Hasil
+        analisis divisualisasikan dalam bentuk dashboard interaktif
+        yang mudah dipahami.
+      </p>
+
+      <a
+        href="https://github.com/sandriarya/machine-learning-sentiment-analysis.git"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="project-button"
+      >
+        Lihat Live Demo <span>→</span>
+      </a>
+    </div>
+
+    <aside class="project-sidebar">
+
+      <div class="sidebar-block">
+        <h2>Teknologi yang Digunakan</h2>
+
+        <div class="technology-list">
+          <div class="technology-item">
+            <span class="tech-symbol">Py</span>
+            <span>Python</span>
+          </div>
+
+          <div class="technology-item">
+            <span class="tech-symbol">◆</span>
+            <span>Flask</span>
+          </div>
+
+          <div class="technology-item">
+            <span class="tech-symbol">◎</span>
+            <span>NLP</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="sidebar-block feature-block">
+        <h2>Fitur Utama</h2>
+
+        <ul class="feature-list">
+          <li><span>✓</span> Dashboard visualisasi data interaktif</li>
+          <li><span>✓</span> Klasifikasi sentimen dengan Naïve Bayes</li>
+          <li><span>✓</span> Prediksi sentimen komentar baru</li>
+          <li><span>✓</span> Evaluasi model dan visualisasi Word Cloud</li>
+        </ul>
+      </div>
+
+    </aside>
+  </section>
+
+</main>
+
+<script src="../assets/js/script.js"></script>
+<script src="../assets/js/project-detail.js"></script>
+</body>
+</html>

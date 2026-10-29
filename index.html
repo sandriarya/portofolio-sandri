@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portofolio Sandri Arya Fikriawan — Web Developer & Machine Learning enthusiast.">
+  <meta name="theme-color" content="#071522">
+  <title>Sandri | Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- style.css tetap dipakai halaman detail; stylesheet editorial ini khusus index -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/index-editorial.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+</head>
+<body class="index-page">
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+  <div class="grain" aria-hidden="true"></div>
+
+  <nav id="navbar" aria-label="Navigasi utama">
+    <div class="nav-inner">
+      <a href="#hero" class="logo" aria-label="Sandri, kembali ke beranda">Sandri<span>.</span></a>
+
+      <div class="nav-links">
+        <a href="#hero" data-nav="hero">Beranda</a>
+        <a href="#about" data-nav="about">Tentang Saya</a>
+        <a href="#projects" data-nav="projects">Proyek</a>
+        <a href="#certificates" data-nav="certificates">Sertifikat</a>
+        <a href="#experience" data-nav="experience">Pengalaman</a>
+        <a href="#contact" data-nav="contact">Kontak</a>
+      </div>
+
+      <div class="nav-actions">
+        <a href="#contact" class="nav-cta">Hubungi Saya<span>→</span></a>
+
+      </div>
+
+      <button id="navToggle" type="button" aria-label="Buka menu" aria-expanded="false" aria-controls="navMobile">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <div id="navMobile">
+      <a href="#hero">Beranda</a>
+      <a href="#about">Tentang Saya &amp; Tools</a>
+      <a href="#projects">Proyek</a>
+      <a href="#certificates">Sertifikat</a>
+      <a href="#experience">Pengalaman</a>
+      <a href="#contact">Kontak</a>
+      <div class="mobile-nav-bottom">
+        <a href="#contact" class="mobile-cta">Hubungi Saya<span>→</span></a>
+
+      </div>
+    </div>
+  </nav>
+
+  <!-- 01. HERO -->
+  <header id="hero" class="hero section-wrap">
+    <div class="hero-copy reveal">
+      <span class="pill"><span class="status-dot"></span> Hallo, Saya Sandri</span>
+      <!-- <p class="eyebrow">JUNIOR WEB DEVELOPER · MACHINE LEARNING ENTHUSIAST</p> -->
+      <h1>Sandri Arya<br>Fikriawan<span class="title-period">.</span></h1>
+      <p class="hero-role">Junior Web Developer &amp; Machine Learning Enthusiast</p>
+      <!-- <p class="hero-sub">Saya membangun website dan aplikasi yang fungsional, mengeksplorasi solusi berbasis data, serta mengubah ide menjadi pengalaman digital yang bermanfaat.</p> -->
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">Lihat Proyek <span>↗</span></a>
+        <a href="cv.pdf" class="btn btn-outline">Unduh CV</a>
+      </div>
+      <div class="hero-socials" aria-label="Tautan sosial">
+        <a href="https://github.com/sandriarya" target="_blank" rel="noopener noreferrer" aria-label="GitHub" title="GitHub"><i class="devicon-github-original" aria-hidden="true"></i></a>
+        <a href="https://www.linkedin.com/in/sandriaryafikriawan/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn"><i class="devicon-linkedin-plain" aria-hidden="true"></i></a>
+        <a href="mailto:sandriaryafikriawan@gmail.com" aria-label="Email" title="Email"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 7 8 6 8-6"/></svg></a>
+      </div>
+    </div>
+
+    <div class="hero-visual hero-profile-visual reveal" aria-label="Foto profil Sandri Arya Fikriawan">
+      <div class="profile-orbit profile-orbit-one" aria-hidden="true"></div>
+      <div class="profile-orbit profile-orbit-two" aria-hidden="true"></div>
+      <div class="profile-photo-frame">
+        <img src="assets/images/profile-sandri.jpeg" alt="Sandri Arya Fikriawan" class="profile-photo">
+        <div class="profile-photo-shade" aria-hidden="true"></div>
+        <!-- <div class="profile-caption">
+          <span class="profile-caption-kicker">DEVELOPER · CREATOR</span>
+          <strong>Thoughtful work.<br><em>Real impact.</em></strong>
+        </div> -->
+      </div>
+      <span class="visual-index">01 <i></i> PERKENALAN</span>
+      <span class="hero-star star-one" aria-hidden="true">✳</span>
+      <span class="hero-star star-two" aria-hidden="true">✳</span>
+    </div>
+  </header>
+
+  <main>
+    <!-- 02. ABOUT & TOOLS -->
+    <section id="about" class="section-wrap section about-tools-section">
+      <div class="section-topline"><span class="section-number">02 / TENTANG</span><span class="section-rule"></span><span class="section-caption">SEKILAS TENTANG SAYA</span></div>
+      <div class="about-tools-grid">
+        <div class="about-column">
+          <div class="section-heading reveal">
+            <p class="eyebrow">TENTANG SAYA</p>
+            <!-- <h2>Membangun sesuatu<br>yang <em>berarti.</em></h2> -->
+          </div>
+          <div class="about-copy reveal">
+            <p>Saya merupakan fresh graduate lulusan S1 Teknik Informatika dengan IPK 3,67 dengan pengalaman mengerjakan 4+ proyek di bidang teknologi informasi, mulai dari pengembangan web hingga penerapan Machine Learning serta memiliki ketertarikan pada Web Development, Machine Learning, dan Desain Grafis.  Saya aktif mengembangkan diri di bidang informatika, senang mempelajari teknologi baru, serta mengubah kebutuhan menjadi solusi digital yang fungsional dan sesuai kebutuhan pengguna.</p>
+            <!-- <p>Saya memiliki semangat belajar yang tinggi, adaptif, teliti dan termotivasi untuk terus mengembangkan keterampilan dan menerapkan pengetahuan yang telah diperoleh melalui proyek nyata. Saya terbuka terhadap kesempatan untuk memperluas pengalaman, mengembangkan karier, serta berkontribusi dalam menciptakan solusi teknologi yang bermanfaat.</p> -->
+            <a href="#contact" class="text-button">Lebih jauh tentang saya <span>↗</span></a>
+          </div>
+          <!-- <div class="about-stats reveal">
+            <div><strong>3+</strong><span>Area yang dipelajari</span></div>
+            <div><strong>3+</strong><span>Proyek dikerjakan</span></div>
+            <div><strong>100%</strong><span>Semangat belajar</span></div>
+          </div> -->
+        </div>
+
+<div class="tools-column reveal">
+  <div class="tools-heading">
+    <p class="eyebrow">TOOLS</p>
+    <h2>Tools &amp; Teknologi</h2>
+    <p>
+      Teknologi yang saya gunakan untuk membangun,
+      menganalisis, dan merancang solusi.
+    </p>
+  </div>
+
+  <div class="tool-group">
+    <div class="tool-items">
+
+      <div class="tool-item">
+        <b class="tool-mark html-mark"><i class="devicon-html5-plain colored"></i></b>
+        <span>HTML</span>
+      </div>
+
+      <div class="tool-item">
+        <b class="tool-mark css-mark"><i class="devicon-css3-plain colored"></i></b>
+        <span>CSS</span>
+      </div>
+
+      <div class="tool-item">
+        <b class="tool-mark js-mark"><i class="devicon-javascript-plain colored"></i></b>
+        <span>JavaScript</span>
+      </div>
+
+      <div class="tool-item">
+        <b class="tool-mark php-mark"><i class="devicon-php-plain colored"></i></b>
+        <span>PHP</span>
+      </div>
+
+      <div class="tool-item">
+        <b class="tool-mark sql-mark"><i class="devicon-mysql-plain colored"></i></b>
+        <span>SQL</span>
+      </div>
+
+      <div class="tool-item">
+        <b class="tool-mark py-mark"><i class="devicon-python-plain colored"></i></b>
+        <span>Python</span>
+      </div>
+
+      <div class="tool-item">
+        <b class="tool-mark ml-mark"><i class="devicon-tensorflow-original colored"></i></b>
+        <span>Machine Learning</span>
+      </div>
+
+      <div class="tool-item">
+        <b class="tool-mark git-mark"><i class="devicon-git-plain colored"></i></b>
+        <span>Git</span>
+      </div>
+
+      <div class="tool-item">
+        <b class="tool-mark github-mark"><i class="devicon-github-original"></i></b>
+        <span>GitHub</span>
+      </div>
+
+      <div class="tool-item">
+        <b class="tool-mark office-mark initials-mark">MS</b>
+        <span>MS Office</span>
+      </div>
+
+      <div class="tool-item">
+        <b class="tool-mark design-mark"><i class="devicon-figma-plain colored"></i></b>
+        <span>Figma</span>
+      </div>
+
+      <div class="tool-item">
+        <b class="tool-mark canva-mark"><i class="devicon-canva-original colored"></i></b>
+        <span>Canva</span>
+      </div>
+
+      <div class="tool-item">
+        <b class="tool-mark balsamiq-mark initials-mark">B</b>
+        <span>Balsamiq</span>
+      </div>
+
+      <div class="tool-item">
+        <b class="tool-mark drawio-mark initials-mark">D</b>
+        <span>draw.io</span>
+      </div>
+
+    </div>
+  </div>
+</div>
+    </section>
+
+    <!-- 03. PROJECTS -->
+    <section id="projects" class="section-wrap section projects-section">
+      <div class="section-topline"><span class="section-number">03 / PROYEK</span><span class="section-rule"></span><span class="section-caption">BEBERAPA HAL YANG TELAH SAYA BUAT</span></div>
+      <div class="projects-heading">
+        <div class="section-heading reveal"><p class="eyebrow">PROYEK PILIHAN</p><h2>Mengubah ide menjadi solusi digital</h2><p>Beberapa karya yang merepresentasikan proses belajar dan eksplorasi saya di bidang web, aplikasi, dan data.</p></div>
+      </div>
+
+      <div class="project-grid reveal">
+        <a class="project-card image-card" href="project-detail/project-sentimen.html">
+          <div class="project-thumb sentiment-thumb"><div class="thumb-topline"><span>sentiment / overview</span><span>● LIVE DATA</span></div><span class="thumb-title">Sentiment<br>Analysis</span><div class="dashboard-mini"><i></i><i></i><i></i><b></b></div><div class="thumb-axis"><span>POSITIVE</span><span>NEUTRAL</span><span>NEGATIVE</span></div></div>
+          <div class="project-card-body"><div class="project-meta"><small>DATA ANALYSIS / MACHINE LEARNING</small><span class="round-arrow">↗</span></div><h3>Sentiment Analysis</h3><p>Analisis sentimen komentar Instagram Timnas Indonesia menggunakan TF-IDF dan Naive Bayes.</p><div class="chips"><span>Python</span><span>Flask</span><span>NLP</span></div></div>
+        </a>
+        <a class="project-card image-card" href="project-detail/project-2.html">
+          <div class="project-thumb cafe-thumb"><div class="cafe-top"><span>CAFE LOVE STORY</span><span>MENU · ORDER</span></div><div class="cafe-scene"><div class="cafe-cup"></div><div class="cafe-panel"><i></i><i></i><i></i></div></div><span class="cafe-thumb-caption"></span></div>
+          <div class="project-card-body"><div class="project-meta"><small>WEBSITE / UI/UX</small><span class="round-arrow">↗</span></div><h3>Point-Of-Sale</h3><p>Aplikasi point-of-sale untuk membantu proses transaksi, laporan, dan pencatatan operasional cafe.</p><div class="chips"><span>PHP</span><span>MySQL</span><span>Bootstrap</span></div></div>
+        </a>
+        <a class="project-card image-card" href="project-detail/project-3.html">
+          <div class="project-thumb kost-thumb"><div class="kost-sky"></div><div class="kost-building"><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="kost-sign">MEKAR HEGAR <small>RESIDENCE</small></div></div>
+          <div class="project-card-body"><div class="project-meta"><small>WEBSITE / BUSINESS</small><span class="round-arrow">↗</span></div><h3>Sistem Reservasi</h3><p>Platform reservasi kamar kost online dengan dashboard admin dan bukti reservasi PDF.</p><div class="chips"><span>Laravel</span><span>MySQL</span><span>Blade</span></div></div>
+        </a>
+      </div>
+    </section>
+
+    <!-- 04. CERTIFICATES -->
+    <section id="certificates" class="section-wrap section certificates-section">
+      <div class="section-topline"><span class="section-number">04 / SERTIFIKAT</span><span class="section-rule"></span><span class="section-caption">PEMBELAJARAN &amp; PRESTASI</span></div>
+      <div class="certificates-heading">
+        <div class="section-heading reveal"><p class="eyebrow">SERTIFIKAT</p><h2>Terus belajar.<br><em>Terus bertumbuh.</em></h2><p>Sertifikat yang menjadi bagian dari perjalanan belajar saya.</p></div>
+      </div>
+      <div class="certificates-grid reveal" id="certificatesGrid">
+        <button class="certificate-card" type="button" data-cert-src="assets/certificates/udemy-machine-learning.pdf" data-cert-type="pdf" data-cert-title="AWS Machine Learning Engineer Associate — Complete Bootcamp">
+          <span class="certificate-card-preview"><img src="assets/certificates/udemy-aws-machine-learning.jpg" alt="Preview sertifikat AWS Machine Learning Engineer Associate — Complete Bootcamp" loading="lazy"></span>
+          <span class="certificate-card-body">
+            <span class="certificate-card-meta">UDEMY · 20 OKTOBER 2026</span>
+            <span class="certificate-card-title">AWS Machine Learning Engineer Associate — Complete Bootcamp</span>
+            <span class="certificate-card-footer"><span>Lihat sertifikat</span><span aria-hidden="true">↗</span></span>
+          </span>
+        </button>
+        <button class="certificate-card" type="button" data-cert-src="assets/certificates/udemy-php-mysql.pdf" data-cert-type="pdf" data-cert-title="PHP with MySQL: Build Amazing Streaming Service">
+          <span class="certificate-card-preview"><img src="assets/certificates/udemy-php-mysql.jpg" alt="Preview sertifikat PHP with MySQL: Build Amazing Streaming Service" loading="lazy"></span>
+          <span class="certificate-card-body">
+            <span class="certificate-card-meta">UDEMY · 27 OKTOBER 2026</span>
+            <span class="certificate-card-title">PHP with MySQL: Build Amazing Streaming Service</span>
+            <span class="certificate-card-footer"><span>Lihat sertifikat</span><span aria-hidden="true">↗</span></span>
+          </span>
+        </button>
+        <button class="certificate-card" type="button" data-cert-src="assets/certificates/aws-dicoding.pdf" data-cert-type="pdf" data-cert-title="DevCoach x AWS UG Bandung: From Model to Agent - Offline Event">
+          <span class="certificate-card-preview"><img src="assets/certificates/aws-dicoding.jpg" alt="Preview sertifikat PHP with MySQL: Build Amazing Streaming Service" loading="lazy"></span>
+          <span class="certificate-card-body">
+            <span class="certificate-card-meta">AWS X DICODING · 24 OKTOBER 2026</span>
+            <span class="certificate-card-title">DevCoach x AWS UG Bandung: From Model to Agent - Offline Event</span>
+            <span class="certificate-card-footer"><span>Lihat sertifikat</span><span aria-hidden="true">↗</span></span>
+          </span>
+        </button>
+        <button class="certificate-card" type="button" data-cert-src="assets/certificates/panitia-seminar-cybersecurity.pdf" data-cert-type="pdf" data-cert-title="Panitia Seminar Cybersecurity">
+          <span class="certificate-card-preview"><img src="assets/certificates/panitia-seminar-cybersecurity-preview.jpg" alt="Preview sertifikat panitia seminar cybersecurity" loading="lazy"></span>
+          <span class="certificate-card-body">
+            <span class="certificate-card-meta">PENGABDIAN KEPADA MASYARAKAT · 22 JUNI 2025</span>
+            <span class="certificate-card-title">Panitia Seminar Cybersecurity</span>
+            <span class="certificate-card-footer"><span>Lihat sertifikat</span><span aria-hidden="true">↗</span></span>
+          </span>
+        </button>
+      </div>
+    </section>
+
+    <!-- 05. EXPERIENCE -->
+    <section id="experience" class="section-wrap section experience-section">
+      <div class="section-topline"><span class="section-number">05 / PENGALAMAN</span><span class="section-rule"></span><span class="section-caption">PERJALANAN</span></div>
+      <div class="experience-heading">
+        <div class="section-heading reveal"><p class="eyebrow">PENGALAMAN &amp; ORGANISASI</p><h2>Perjalanan dan<br><em>kontribusi saya.</em></h2></div>
+        <p class="experience-intro reveal">Pengalaman yang membentuk cara saya bekerja, belajar, berkolaborasi, dan menyelesaikan permasalahan.</p>
+      </div>
+      <div class="timeline reveal">
+        <article class="tl-item active">
+          <div class="tl-marker"></div><p class="tl-date">AGUSTUS — NOVEMBER 2025</p>
+          <div class="tl-content"><span class="tl-category">WEB DEVELOPMENT</span><h3>Web Developer</h3><strong>Cafe Love Story</strong><p>Mengembangkan sistem kasir dan landing page company profile untuk cafe dengan fokus pada alur kerja yang jelas dan kemudahan pengguna.</p></div>
+        </article>
+        <article class="tl-item">
+          <div class="tl-marker"></div><p class="tl-date">MARET — APRIL 2021</p>
+          <div class="tl-content"><span class="tl-category">TECHNICAL</span><h3>Teknisi Assembly</h3><strong>PT. Lintas Mediatama</strong><p>Melakukan perakitan perangkat dan memastikan kualitas produk sesuai dengan SOP perusahaan yang ditetapkan.</p></div>
+        </article>
+        <article class="tl-item">
+          <div class="tl-marker"></div><p class="tl-date">JUNI — JULI 2025</p>
+          <div class="tl-content"><span class="tl-category">COMMUNITY</span><h3>Panitia Seminar</h3><strong>Pengabdian kepada Masyarakat</strong><p>Mengelola kebutuhan logistik dan konsumsi untuk mendukung kelancaran kegiatan pengabdian kepada masyarakat.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- 06. CONTACT -->
+    <section id="contact" class="section-wrap section contact-section">
+      <div class="section-topline"><span class="section-number">06 / KONTAK</span><span class="section-rule"></span><span class="section-caption">ADA PROYEK YANG INGIN ANDA LAKUKAN?</span></div>
+      <div class="contact-layout">
+        <div class="contact-copy reveal">
+          <p class="eyebrow">HUBUNGI SAYA</p>
+          <h2>Ayo berkolaborasi</h2>
+          <p>Terbuka untuk diskusi tentang proyek baru dan peluang kerja sama</p>
+          <a class="btn btn-primary contact-button" href="mailto:sandriaryafikriawan@gmail.com">Hubungi Saya <span>↗</span></a>
+        </div>
+        <div class="contact-details reveal">
+          <a class="contact-item" href="mailto:sandriaryafikriawan@gmail.com"><span class="contact-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 7 8 6 8-6"/></svg></span><span><small>EMAIL</small><strong>sandriaryafikriawan@gmail.com</strong></span><span class="contact-arrow">↗</span></a>
+          <a class="contact-item" href="https://github.com/sandriarya" target="_blank" rel="noopener noreferrer"><span class="contact-icon" aria-hidden="true"><i class="devicon-github-original"></i></span><span><small>GITHUB</small><strong>github.com/sandriarya</strong></span><span class="contact-arrow">↗</span></a>
+          <a class="contact-item" href="https://www.linkedin.com/in/sandriaryafikriawan/" target="_blank" rel="noopener noreferrer"><span class="contact-icon" aria-hidden="true"><i class="devicon-linkedin-plain"></i></span><span><small>LINKEDIN</small><strong>https://www.linkedin.com/in/sandriaryafikriawan/</strong></span><span class="contact-arrow">↗</span></a>
+          <div class="contact-availability"><span class="status-dot"></span> Terbuka untuk peluang dan kolaborasi</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- <footer>
+    <div class="footer-inner">
+      <a href="#hero" class="footer-logo">Sandri<span>.</span></a>
+      <span>© 2026 Sandri Arya Fikriawan. Built with care.</span>
+      <div class="footer-links"><a href="#about">About</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#contact">Contact</a></div>
+      <a href="#hero" class="to-top" aria-label="Kembali ke atas">↑</a>
+    </div>
+  </footer> -->
+
+  <div class="certificate-modal" id="certificateModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="certificateModalTitle">
+    <div class="certificate-modal-backdrop" data-certificate-close></div>
+    <div class="certificate-modal-panel" role="document">
+      <div class="certificate-modal-header"><div><p class="eyebrow">PREVIEW SERTIFIKAT</p><h2 id="certificateModalTitle">Sertifikat</h2></div><button class="certificate-modal-close" type="button" aria-label="Tutup preview" data-certificate-close>×</button></div>
+      <div class="certificate-modal-content" id="certificateModalContent"></div>
+    </div>
+  </div>
+
+  <script src="assets/js/script.js"></script>
+  <script src="assets/js/certificates.js"></script>
+  <script src="assets/js/index-theme.js"></script>
+</body>
+</html>
